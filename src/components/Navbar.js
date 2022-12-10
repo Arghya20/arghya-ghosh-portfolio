@@ -22,7 +22,7 @@ const Navbar = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Product
+                Home
               </a>
             </li>
             <li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Features
+                Technology
               </a>
             </li>
             <li>
@@ -42,19 +42,10 @@ const Navbar = () => {
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Pricing
+                Projects
               </a>
             </li>
-            <li>
-              <a
-                href="/"
-                aria-label="About us"
-                title="About us"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-              >
-                About us
-              </a>
-            </li>
+
             <li>
               <button className="bg-red-400 px-2 py-[7px] text-white font-bold rounded mr-2.5 shadow-xl outline outline-red-500">
                 Conteact me
@@ -91,7 +82,7 @@ const Navbar = () => {
             </button>
             {isMenuOpen && (
               <div class="absolute top-0 left-0 w-full ">
-                <div class="p-5 bg-white border rounded shadow-xl">
+                <div class="p-5 bg-white border rounded shadow-xl ">
                   <div class="flex items-center justify-between mb-4 ">
                     <div>
                       <div>{name}</div>
