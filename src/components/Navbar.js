@@ -48,7 +48,7 @@ const Navbar = () => {
 
             <li>
               <button className="bg-red-400 px-2 py-[7px] text-white font-bold rounded mr-2.5 shadow-xl outline outline-red-500">
-                Conteact me
+                Conteact Me
               </button>
             </li>
           </ul>

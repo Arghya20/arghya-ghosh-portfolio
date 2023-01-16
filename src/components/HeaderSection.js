@@ -10,7 +10,7 @@ const HeaderSection = () => {
               Arghya Ghosh
             </h5>
             <p className="mb-6 text-gray-900 text-center">
-              Web Developer | Full-Stack Developer
+              Web Developer | Full-Stack Developer 
             </p>
 
             <div className="flex items-center space-x-4 justify-center">
